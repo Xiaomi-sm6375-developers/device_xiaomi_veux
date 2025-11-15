@@ -573,7 +573,7 @@ vendor/etc/init/vendor.qti.diag.rc
 vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
 vendor/lib/libdiag.so
 vendor/lib64/libdiag.so
-vendor/lib64/vendor.qti.diaghal@1.0.so
+vendor/lib64/vendor.qti.diaghal@1.0.so;MODULE_SUFFIX=_vendor
 
 # Display 
 vendor/etc/display/DPU660.xml
@@ -862,7 +862,7 @@ system_ext/lib64/libfm-hci.so
 system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/ftm_fm_lib.so
-vendor/lib64/vendor.qti.hardware.fm@1.0.so
+vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
